@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>B</title>
+<entry><title>وزارة الطاقة: خطة طارئة لتأمين إمدادات الكهرباء في لبنان قبل الشتاء</title>
+<link rel="alternate" href="https://b.example/power-plan"/><summary>خطة لتأمين الوقود.</summary><published>{{NOW_ISO}}</published></entry>
+<entry><title>افتتاح معرض الكتاب الدولي</title><link href="https://b.example/books"/><updated>{{NOW_ISO}}</updated></entry>
+</feed>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>A</title>
+<item><title>عاجل | الحكومة اللبنانية تعلن خطة طارئة لإمدادات الكهرباء قبل الشتاء</title><link>https://a.example/power</link>
+<description><![CDATA[<p>أعلنت وزارة الطاقة إجراءات مؤقتة لصيانة محطات التوليد.</p><p>The post X appeared first on A.</p>]]></description><pubDate>{{NOW_RFC}}</pubDate><category>اقتصاد</category></item>
+<item><title>أنباء عن إغلاق طريق رئيسي في ريف حلب</title><link>https://a.example/road</link><description>متداول على مواقع التواصل.</description><pubDate>{{NOW_RFC}}</pubDate></item>
+<item><title>ارتفاع تداول أسهم الطاقة في البورصة</title><link>https://a.example/stocks</link><description>&lt;b&gt;ارتفاع&lt;/b&gt; ملحوظ &amp;amp; نشاط</description><pubDate>{{NOW_RFC}}</pubDate></item>
+<item><title>خبر قديم جدا</title><link>https://a.example/old</link><pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate></item>
+</channel></rss>

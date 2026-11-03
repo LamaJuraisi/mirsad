@@ -1,0 +1,20 @@
+{
+  "name": "mirsad",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Mirsad news room: aggregates regional RSS feeds and serves them to the app.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check-feeds": "node scripts/check-feeds.js",
+    "test": "node --test test/*.test.js",
+    "build:static": "node scripts/build-static.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.7"
+  }
+}
