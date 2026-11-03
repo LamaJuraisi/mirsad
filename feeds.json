@@ -1,7 +1,7 @@
 {
   "_note": "Keys must match COUNTRIES in public/index.html. URLs are best-known public feeds and have not been verified from the build environment; run `npm run check-feeds` and fix or remove any that fail. An outlet with no `feeds` entry simply produces no stories.",
   "outlets": [
-    {"countryKey": "egypt", "outletKey": "mada-masr", "name": "مدى مصر", "language": "العربية", "feeds": ["https://www.madamasr.com/feed"]},
+    {"countryKey": "egypt", "outletKey": "mada-masr", "name": "مدى مصر", "language": "العربية", "feeds": ["https://www.madamasr.com/feed/"]},
     {"countryKey": "egypt", "outletKey": "al-shorouk", "name": "الشروق", "language": "العربية", "feeds": ["https://www.shorouknews.com/rss/"]},
     {"countryKey": "egypt", "outletKey": "almasry-alyoum", "name": "المصري اليوم", "language": "العربية", "feeds": ["https://www.almasryalyoum.com/rss/rssfeeds"]},
     {"countryKey": "saudi", "outletKey": "sabq", "name": "سبق", "language": "العربية", "feeds": ["https://sabq.org/api/rss/articles"]},
@@ -23,9 +23,9 @@
     {"countryKey": "kuwait", "outletKey": "alqabas", "name": "القبس", "language": "العربية", "feeds": ["https://www.alqabas.com/rss"]},
     {"countryKey": "kuwait", "outletKey": "alraimedia", "name": "الراي", "language": "العربية", "feeds": ["https://www.alraimedia.com/rss"]},
     {"countryKey": "yemen", "outletKey": "almusdar", "name": "المصدر أونلاين", "language": "العربية", "feeds": ["https://almasdaronline.com/rss"]},
-    {"countryKey": "yemen", "outletKey": "almashhad", "name": "المشهد اليمني", "language": "العربية", "feeds": ["https://www.almashhad.news/feed"]},
+    {"countryKey": "yemen", "outletKey": "almashhad", "name": "المشهد اليمني", "language": "العربية", "feeds": []},
     {"countryKey": "morocco", "outletKey": "hespress", "name": "هسبريس", "language": "العربية", "feeds": ["https://www.hespress.com/feed"]},
-    {"countryKey": "morocco", "outletKey": "telquel", "name": "تيل كيل", "language": "الفرنسية", "feeds": ["https://telquel.ma/feed/"]},
+    {"countryKey": "morocco", "outletKey": "telquel", "name": "تيل كيل", "language": "الفرنسية", "feeds": ["https://telquel.ma/feed"]},
     {"countryKey": "algeria", "outletKey": "echoroukonline", "name": "الشروق أونلاين", "language": "العربية", "feeds": ["https://www.echoroukonline.com/feed"]},
     {"countryKey": "algeria", "outletKey": "elkhabar", "name": "الخبر", "language": "العربية", "feeds": ["https://www.elkhabar.com/feed"]},
     {"countryKey": "tunisia", "outletKey": "mosaique", "name": "موزاييك", "language": "العربية", "feeds": ["https://www.mosaiquefm.net/ar/rss"]},
