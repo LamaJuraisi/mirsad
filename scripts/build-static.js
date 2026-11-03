@@ -23,6 +23,8 @@ const lines = sources
 const report = [
   `## Mirsad build: ${stories.length} stories from ${ok.length}/${sources.length} feeds (${Date.now() - startedAt} ms)`,
   '',
+  `Trust levels: ${['confirmed', 'likely', 'unverified', 'rumor'].map((level) => `${level} ${stories.filter((story) => story.reliability === level).length}`).join(' · ')}`,
+  '',
   '| | Outlet | Items / error | Feed |',
   '|---|---|---|---|',
   ...lines,
