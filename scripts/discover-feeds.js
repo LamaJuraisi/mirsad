@@ -12,7 +12,7 @@ const only = process.argv.slice(2);
 async function works(url) {
   try {
     const items = await fetchFeed(url, { timeoutMs: 15000 });
-    return items.length ? items.length : 0;
+    return items.length ? `${items.length} items · latest: ${items[0].title.slice(0, 70)}` : 0;
   } catch {
     return 0;
   }
